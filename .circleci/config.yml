@@ -1,0 +1,12 @@
+version: 2.1
+
+workflows:
+  build-workflow:
+    jobs:
+      - runner
+jobs:
+  runner:
+    machine: true
+    resource_class: runner-egrapp/support-demo
+    steps:
+      - run: echo "Hi I'm on Runners!"
