@@ -9,4 +9,4 @@ jobs:
     machine: true
     resource_class: runner-egrapp/support-demo
     steps:
-      - run: echo "Hi I'm on Runners!"
+      - run: echo "Hi I'm on Runners! "
